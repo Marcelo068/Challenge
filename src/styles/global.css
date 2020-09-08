@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    font-weight: 600;
+}
+
+/* layout */
+.headers{
+    height: 4vh;
+    background: #e9e3d3;
+}
+.maincontainer{
+    height: 92vh;
+}
+/* navbar */
+.positionlabel{
+    top: 25%;
+}
+.positionradio{
+    top: 10%;
+}
+.rotate{
+    transform: rotate(-90deg);
+    margin: 0;
+}
+.border{
+    background: #e9e3d3;
+    width: 3%;
+    border-left: 1px solid #b69a5e !important;
+    border-right: none;
+}
+.mycontainer{
+    width: 88%;
+    background: #d2cbb8;
+}
+.mycursor{
+    cursor: pointer;
+}
+/* animations */
+.animations{
+    transition: 2s;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
